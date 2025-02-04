@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.swiper-3d .swiper-slide-shadow {
+  background: rgba(0, 0, 0, 0) !important;
+}
+
+@font-face {
+  font-family: Swis721BlkCnBT;
+  src: url("../public/fonts/Swis721BlkCnBT/Swiss721BlackCondensedBT.ttf")
+    format("ttf");
+}
+
+@font-face {
+  font-family: SW721KCI;
+  src: url("../public/fonts/Swis721BlkCnBT/SW721KCI.ttf") format("ttf");
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: #0f3551 !important;
+}
